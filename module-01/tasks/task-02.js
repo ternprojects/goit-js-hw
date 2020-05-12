@@ -1,6 +1,6 @@
 'use script';
 
-let total = 100;
+const total = 100;
 let ordered = 20;
 ordered = 80;
 ordered = 130;
