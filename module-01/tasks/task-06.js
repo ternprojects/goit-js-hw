@@ -1,15 +1,19 @@
 'use script';
 
-let counter;
 let total; 
-let sum;
+let sum = 0;
 
 
-/* 
-for (total = prompt('Введите число:')) {
-  if (total === true) {
-    sum = counter + total;
-  } else if (total === false) {
-    alert(`Общая сумма чисел равна: ${sum}`);
+do {
+  total = prompt('Введите число:');
+  const number = Number(total);
+  const isNumber = Number.isNaN(number);
+
+  if (!isNumber) {
+    sum = sum + number;
   }
-} */
+  
+} while (total !== null);
+
+console.log(`Общая сумма: ${sum}`);
+alert(`Общая сумма: ${sum}`);
