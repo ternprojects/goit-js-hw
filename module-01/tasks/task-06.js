@@ -1,8 +1,7 @@
 'use script';
 
-let total; 
+let total;
 let sum = 0;
-
 
 do {
   total = prompt('Введите число:');
@@ -12,7 +11,7 @@ do {
   if (!isNumber) {
     sum = sum + number;
   }
-  
+
 } while (total !== null);
 
 console.log(`Общая сумма: ${sum}`);
