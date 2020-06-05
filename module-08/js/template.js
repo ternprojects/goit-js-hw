@@ -13,5 +13,5 @@ export const tempImg = item => {
       />
     </a>
   </li>
-`;
+ `;
 }
